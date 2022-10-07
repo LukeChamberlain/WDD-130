@@ -4,6 +4,9 @@ body{
 header{
     background-color: #606c38;
 }
+.logo{
+    width: 80px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
