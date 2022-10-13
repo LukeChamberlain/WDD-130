@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Dirt&display=swap');
 body{
   background-color: #606c38;
+  font-family: 'Rubik Dirt';
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header{
     background-color: #606c38;
+    font-family: 'Rubik Dirt';
 }
 .logo{
     width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
 }
 #content {
     max-width: 1600px;
@@ -15,53 +27,84 @@ nav a {
     text-align: center;
     color: #bc6c25;
     text-decoration: none;
+    font-family: 'Rubik Dirt';
+    padding: 35px;
 }
 nav a:hover{
     background-color:black;
     color:#bc6c25;
-    ;
+    font-family: 'Rubik Dirt';
 }
 #hero-img{
     width: 100%
 }
 .home-title{
     color: #bc6c25 ;
+    font-family: 'Rubik Dirt';
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #bc6c25;
+    font-family: 'Rubik Dirt';
 }
 .book, .join{
     background-color: #606c38;
     color: #bc6c25;
     text-decoration: none;
+    font-family: 'Rubik Dirt';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #bc6c25 ;
 }
 .book:hover, .join:hover{
     background-color:#606c38;
     color: #bc6c25;
+    font-family: 'Rubik Dirt';
 }
 .msg h2{
     color:#bc6c25;
+    font-family: 'Bebas Neue';
 }
 .msg p{
     color: #bc6c25;
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    padding-bottom: 15px;
 }
 #background{
     background-color: #606c38;
 }
 .msg{
   background-color: #606c38;
+  font-family: 'Bebas Neue';
+  line-height: 1.5em;
+  padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .button-box{
     text-align: center;
+    font-family: 'Bebas Neue';
 }
 main section{
     text-align: center;
+    font-family: 'Bebas Neue';
+}
+main section img{
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
@@ -69,6 +112,9 @@ main section{
 footer{
     background-color: #606c38 ;
     color: #bc6c25;
+    font-family: 'Bebas Neue';
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em;
@@ -76,8 +122,13 @@ footer p{
 footer a{
     color: #bc6c25;
     text-decoration: none;
+    font-family: 'Bebas Neue';
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer a:hover{
     color: #bc6c25;
     text-decoration: underline;
+    font-family: 'Bebas Neue';
 }

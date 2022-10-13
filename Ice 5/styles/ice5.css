@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-color: grey;
+}
+.web_designer{
+    width: 100%;
+}
+#icons {
+   width: 95%;
+   text-align: center;
+}
+#icons div {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+}
+.desk, .graphic, .person {
+    width: 70%;
+    border-radius: 50%;
+    border: 12px solid #555;
+    margin: 0 auto;
+}
