@@ -204,6 +204,29 @@ footer a:hover{
     text-decoration: underline;
     font-family: 'Bebas Neue';
 }
+
+
+.Salmon-River, .Gray-Canyon, .Grand-Canyon{
+    margin: 50px 0;
+    width: 100%;
+    text-align: center;
+}
+.Salmon-River {
+    grid-column: 2/10;
+    grid-row: 2/3;
+}           
+.Gray-Canyon {
+    grid-column: 2/10;
+    grid-row: 4/5;
+}           
+.Grand-Canyon {
+    grid-column: 2/10;
+    grid-row: 6/7;
+}   
+h2{
+    color: #bc6c25;
+    font-family: 'Rubik Dirt';
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
